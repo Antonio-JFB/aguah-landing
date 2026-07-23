@@ -1,0 +1,33 @@
+# Entorno virtual y paquetes locales
+.venv/
+venv/
+env/
+
+# Variables y configuracion local
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Base de datos de usuarios
+data/*.db
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+
+# Empaquetado
+build/
+dist/
+*.egg-info/
+
+# Logs y temporales
+*.log
+
+# Editores y sistema operativo
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

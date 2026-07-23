@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Iniciar sesion - Argentum AguaH</title>
+  <link rel="stylesheet" href="/static/css/styles.css" />
+</head>
+<body>
+  <main class="login-wrap">
+    <form class="login-card" method="post" action="/login">
+      <h1>Argentum</h1>
+      <p class="subtitle">Acceso a dashboards de Agua de Hermosillo</p>
+      <div id="error">{{error}}</div>
+      <label for="username">Usuario</label>
+      <input id="username" name="username" type="text" required autofocus autocapitalize="none" autocomplete="username" />
+      <label for="password">Contrasena</label>
+      <input id="password" name="password" type="password" required />
+      <input type="hidden" name="next" value="{{next}}" />
+      <button type="submit">Entrar</button>
+    </form>
+  </main>
+</body>
+</html>
