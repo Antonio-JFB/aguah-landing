@@ -6,6 +6,12 @@ DASHBOARDS_BY_CLIENTE = {
             "description": "Pronóstico de fugas, balance hídrico y priorización de medidores.",
             "url": "https://appaguah2026.redes.argentumdevelopment.com/",
         },
+        {
+            "key": "hmo_descuentos",
+            "name": "Descuentos — Municipio y Aguah",
+            "description": "Consulta y gestion de descuentos y adeudos.",
+            "url": "https://apphmo2026.adeudos.argentumdevelopment.com/",
+        },
     ],
 }
 
