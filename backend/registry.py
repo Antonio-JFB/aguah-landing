@@ -12,6 +12,12 @@ DASHBOARDS_BY_CLIENTE = {
             "description": "Consulta y gestion de descuentos y adeudos.",
             "url": "https://apphmo2026.descuentos.argentumdevelopment.com/",
         },
+        {
+            "key": "adeudos_q21",
+            "name": "Adeudos Q2.1 — AguaH y Municipio",
+            "description": "Churn comercial, priorizacion de cartera y seleccion de casos.",
+            "url": "https://apphmo2026.adeudos.argentumdevelopment.com/",
+        },
     ],
 }
 
