@@ -10,7 +10,7 @@ DASHBOARDS_BY_CLIENTE = {
             "key": "hmo_descuentos",
             "name": "Descuentos — Municipio y Aguah",
             "description": "Consulta y gestion de descuentos y adeudos.",
-            "url": "https://apphmo2026.adeudos.argentumdevelopment.com/",
+            "url": "https://apphmo2026.descuentos.argentumdevelopment.com/",
         },
     ],
 }
